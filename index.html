@@ -13,13 +13,13 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class= "hero-content">
+    <div class="hero-content">
 
       <!-- LEFT -->
       <div class="hero-text">
         <h1>Lil Uzi Vertical</h1>
         <p class="subtitle">
-          Plastic Antweight Vertical Spinner
+          Compact vertical spinner designed for impact stability
         </p>
       </div>
 
@@ -36,67 +36,51 @@
 
     </div>
 
-    <!-- CLEAN IMAGE -->
-    <img src="assets/robot.png" class="hero-image" alt="Lil Uzi Vert in Arena Annotated">
+    <!-- HERO IMAGE -->
+    <img src="assets/robot.png" class="hero-image" alt="Lil Uzi Vertical robot in arena">
   </section>
 
-  <!-- ANNOTATED IMAGE -->
+  <!-- DESIGN STRATEGY -->
   <section class="section">
-    <h2>Annotated Overview</h2>
-
-    <img 
-      src="assets/robot_annotated.png" 
-      class="annotated-image" 
-      alt="Annotated robot diagram"
-    >
-
-    <p class="caption">
-      Key components of the robot including weapon system, drive motors, and structural layout.
-    </p>
-  </section>
-
-  <!-- DESIGN OBJECTIVE -->
-  <section class="section">
-    <h2>Design Objective</h2>
+    <h2>Design Strategy</h2>
     <p>
-      The robot was designed under strict weight and size constraints with the
-      goal of maintaining control during impacts. Instead of maximizing size or
-      reach, the design prioritizes stability and rapid re-engagement.
+      The robot was designed to minimize knockback and maintain control during impacts. 
+      Instead of maximizing size or reach, the footprint was reduced and mass was 
+      concentrated toward the center. This allows the robot to stay grounded and 
+      re-engage quickly after collisions.
     </p>
   </section>
 
-  <!-- CORE STRATEGY -->
-  <section class="section">
-    <h2>Core Design Strategy</h2>
-    <p>
-      The primary design decision was to minimize overall footprint and
-      concentrate mass toward the center of the robot. This reduces displacement
-      during impacts and allows the robot to maintain contact and control
-      following collisions.
-    </p>
-  </section>
-
-  <!-- CAD -->
+  <!-- MECHANICAL DESIGN -->
   <section class="section">
     <h2>Mechanical Design</h2>
+
     <div class="grid">
-      <img src="assets/master_sketch.png" alt="Master Sketch">
-      <img src="assets/part.png" alt="Part Design">
-      <img src="assets/assembly.png" alt="Assembly">
-    </div>
+
+  <!-- MASTER SKETCH GROUP -->
+  <div class="grid">
+    <img src="assets/mastersketch1" alt="Master Sketch Top Plane">
+    <img src="assets/mastersketch2" alt="Master Sketch Side Plane">
+  </div>
+
+  <!-- OTHER COMPONENTS -->
+  <img src="assets/part" alt="Part Design">
+  <img src="assets/assembly" alt="Assembly">
+
+</div>
+
     <p class="caption">
-      The master sketch defined all major constraints including footprint and
-      component placement. Parts were designed for tight packaging and structural
-      integrity under repeated impacts.
+      Constraint-driven design focused on tight packaging and structural durability under repeated impacts.
     </p>
   </section>
 
-  <!-- WEAPON -->
+  <!-- WEAPON DESIGN -->
   <section class="section">
     <h2>Weapon Design</h2>
+
     <p>
-      The vertical spinner uses a brushless motor to achieve high rotational
-      speeds. Tip speed was estimated using motor KV and battery voltage:
+      The vertical spinner uses a brushless motor to achieve high rotational speed. 
+      Tip speed was estimated using motor KV and battery voltage:
     </p>
 
     <p class="formula">
@@ -104,36 +88,14 @@
     </p>
 
     <p>
-      With a 3.2 inch weapon diameter and a 2300 KV motor at 11.1V, the
-      theoretical maximum tip speed is approximately <strong>240 mph</strong>.
-      Actual speed is lower due to load and system losses.
+      With a 3.2 inch weapon diameter and a 2300 KV motor at 11.1V, the theoretical 
+      maximum tip speed is approximately <strong>240 mph</strong>. Actual speed is lower 
+      due to load and system losses.
     </p>
 
     <p>
-      A smaller diameter was chosen to allow faster spin-up and better control,
-      sacrificing some reach and stored energy for responsiveness.
-    </p>
-  </section>
-
-  <!-- ELECTRONICS -->
-  <section class="section">
-    <h2>Electronics System</h2>
-
-    <p>
-      The system separates drive and weapon control to balance simplicity and
-      performance.
-    </p>
-
-    <ul>
-      <li><strong>Battery:</strong> 300mAh HV LiPo</li>
-      <li><strong>Drive:</strong> Dual brushed ESC</li>
-      <li><strong>Weapon:</strong> Brushless motor + ESC</li>
-      <li><strong>Receiver:</strong> Flysky FS2A</li>
-      <li><strong>Switch:</strong> Fingertech power switch</li>
-    </ul>
-
-    <p class="caption">
-      Compact wiring layout minimized interference with the weapon system.
+      A smaller diameter was chosen to improve spin-up time and control, trading 
+      maximum energy for responsiveness and consistency in engagements.
     </p>
   </section>
 
@@ -141,8 +103,8 @@
   <section class="section">
     <h2>Performance</h2>
     <p>
-      The compact design reduced knockback and allowed the robot to remain
-      grounded during impacts, enabling consistent control and a winning exchange.
+      The compact design reduced knockback and allowed the robot to remain grounded 
+      during impacts, enabling consistent control and a decisive win.
     </p>
   </section>
 
@@ -150,8 +112,8 @@
   <section class="section">
     <h2>Lessons Learned</h2>
     <p>
-      Compact packaging improved stability but reduced accessibility. Future
-      iterations would improve serviceability while maintaining centralized mass.
+      Compact packaging improved stability but reduced accessibility for maintenance. 
+      Future iterations would aim to preserve mass distribution while improving serviceability.
     </p>
   </section>
 
