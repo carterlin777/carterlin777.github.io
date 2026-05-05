@@ -1,19 +1,22 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0b0b0b;
-  color: #eaeaea;
+  background: #ffffff;
+  color: #111111;
 }
 
+/* GENERAL */
 .section {
   max-width: 900px;
   margin: auto;
   padding: 80px 20px;
 }
 
+/* TYPOGRAPHY */
 h1 {
   font-size: 56px;
   margin-bottom: 12px;
+  color: #000;
 }
 
 h2 {
@@ -23,39 +26,43 @@ h2 {
 
 p {
   line-height: 1.7;
-  color: #cfcfcf;
+  color: #333;
   max-width: 700px;
 }
 
+/* HERO */
 .hero {
   text-align: center;
-  padding: 120px 20px 100px;
-  max-width: 900px;
-  margin: auto;
+  padding: 120px 20px 80px;
 }
 
 .subtitle {
-  color: #aaaaaa;
+  color: #555;
   margin-bottom: 40px;
   font-size: 18px;
 }
 
-.video-container {
+/* VIDEO FIXED */
+.video-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  margin-top: 30px;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  background: #000;
 }
 
-.video-container iframe {
+.video-wrapper iframe {
   position: absolute;
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
 }
 
+/* GRID */
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -66,34 +73,43 @@ p {
 .grid img {
   width: 100%;
   border-radius: 12px;
+  border: 1px solid #e5e5e5;
 }
 
+/* CAPTION */
 .caption {
   font-size: 14px;
-  color: #999;
+  color: #777;
   margin-top: 15px;
 }
 
+/* FORMULA */
 .formula {
   font-size: 20px;
   margin: 20px 0;
-  color: #ffffff;
+  font-weight: bold;
 }
 
+/* LIST */
 ul {
   margin-top: 20px;
 }
 
+/* BUTTON */
 .button {
   display: inline-block;
   padding: 14px 24px;
-  background: white;
-  color: black;
+  background: #000;
+  color: #fff;
   text-decoration: none;
   border-radius: 10px;
-  margin-top: 20px;
 }
 
+.button:hover {
+  background: #333;
+}
+
+/* DESKTOP */
 @media (min-width: 700px) {
   .grid {
     grid-template-columns: 1fr 1fr;
