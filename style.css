@@ -8,8 +8,8 @@
 /* BASE */
 body {
   font-family: 'Roboto', sans-serif;
-  background: #0f1115;
-  color: #e5e7eb;
+  background: #ffffff;
+  color: #111111;
   line-height: 1.6;
 }
 
@@ -29,14 +29,15 @@ body {
 /* LEFT TEXT */
 .hero-text h1 {
   font-size: 2.8rem;
+  color: #000000;
 }
 
 .subtitle {
   margin-top: 10px;
-  color: #9ca3af;
+  color: #555555;
 }
 
-/* RIGHT VIDEO (FIXED) */
+/* RIGHT VIDEO */
 .hero-video {
   width: 100%;
   max-width: 420px;
@@ -67,10 +68,11 @@ body {
   font-size: 1.8rem;
   margin-bottom: 20px;
   font-weight: 500;
+  color: #000000;
 }
 
 .section p {
-  color: #cbd5e1;
+  color: #333333;
 }
 
 /* GRID */
@@ -84,6 +86,7 @@ body {
 .grid img {
   width: 100%;
   border-radius: 10px;
+  border: 1px solid #e5e5e5;
 }
 
 /* ANNOTATED IMAGE */
@@ -99,7 +102,7 @@ body {
 .caption {
   text-align: center;
   font-size: 0.9rem;
-  color: #9ca3af;
+  color: #777777;
   margin-top: 10px;
 }
 
@@ -107,6 +110,7 @@ body {
   text-align: center;
   font-weight: 500;
   margin: 20px 0;
+  color: #000000;
 }
 
 /* LIST */
@@ -117,4 +121,5 @@ ul {
 
 li {
   margin-bottom: 8px;
+  color: #333333;
 }
