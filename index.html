@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Li'l Uzi Vert(ical)</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -14,9 +15,12 @@
       Compact Vertical Spinner Designed for Impact Stability
     </p>
 
-    <div class="video-container">
+    <div class="video-wrapper">
       <iframe 
-        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        src="https://youtu.be/NhncQbcjRDg"
+        title="Robot Fight"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
       </iframe>
     </div>
@@ -47,9 +51,9 @@
   <section class="section">
     <h2>Mechanical Design</h2>
     <div class="grid">
-      <img src="assets/images/master_sketch.png">
-      <img src="assets/images/part.png">
-      <img src="assets/images/assembly.png">
+      <img src="assets/images/master_sketch.png" alt="Master Sketch">
+      <img src="assets/images/part.png" alt="Part Design">
+      <img src="assets/images/assembly.png" alt="Assembly">
     </div>
     <p class="caption">
       The master sketch defined all major constraints including footprint and
@@ -73,8 +77,7 @@
     <p>
       With a 3.2 inch weapon diameter and a 2300 KV motor at 11.1V, the
       theoretical maximum tip speed is approximately <strong>240 mph</strong>.
-      Actual speed is lower due to load and system losses, but this provided a
-      basis for comparing design tradeoffs.
+      Actual speed is lower due to load and system losses.
     </p>
 
     <p>
@@ -93,16 +96,15 @@
     </p>
 
     <ul>
-      <li><strong>Battery:</strong> 300mAh HV LiPo (high voltage for power density)</li>
-      <li><strong>Drive:</strong> Dual brushed ESC (reliable, simple control)</li>
-      <li><strong>Weapon:</strong> Brushless motor + ESC (high RPM capability)</li>
-      <li><strong>Receiver:</strong> Flysky FS2A (compact and compatible)</li>
-      <li><strong>Switch:</strong> Fingertech power switch for safe operation</li>
+      <li><strong>Battery:</strong> 300mAh HV LiPo</li>
+      <li><strong>Drive:</strong> Dual brushed ESC</li>
+      <li><strong>Weapon:</strong> Brushless motor + ESC</li>
+      <li><strong>Receiver:</strong> Flysky FS2A</li>
+      <li><strong>Switch:</strong> Fingertech power switch</li>
     </ul>
 
     <p class="caption">
-      Design focused on compact wiring and minimizing interference with the
-      weapon system.
+      Compact wiring layout minimized interference with the weapon system.
     </p>
   </section>
 
@@ -110,9 +112,8 @@
   <section class="section">
     <h2>Performance</h2>
     <p>
-      In competition, the compact design reduced knockback and allowed the robot
-      to remain grounded during impacts. This enabled immediate re-engagement and
-      control, leading to a decisive win.
+      The compact design reduced knockback and allowed the robot to remain
+      grounded during impacts, enabling consistent control and a winning exchange.
     </p>
   </section>
 
@@ -120,9 +121,8 @@
   <section class="section">
     <h2>Lessons Learned</h2>
     <p>
-      While compact packaging improved stability, it reduced accessibility for
-      maintenance and repair. Future iterations would improve serviceability
-      while maintaining centralized mass distribution.
+      Compact packaging improved stability but reduced accessibility. Future
+      iterations would improve serviceability while maintaining centralized mass.
     </p>
   </section>
 
