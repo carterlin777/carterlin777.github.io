@@ -44,10 +44,9 @@
   <section class="section">
     <h2>Design Strategy</h2>
     <p>
-      The robot was designed to minimize knockback and maintain control during impacts. 
-      Instead of maximizing size or reach, the footprint was reduced and mass was 
-      concentrated toward the center. This allows the robot to stay grounded and 
-      re-engage quickly after collisions.
+      The design prioritizes stability over reach by reducing footprint and concentrating mass 
+      toward the center. This minimizes displacement during impacts and allows faster 
+      re-engagement after collisions.
     </p>
   </section>
 
@@ -55,22 +54,26 @@
   <section class="section">
     <h2>Mechanical Design</h2>
 
+    <!-- MASTER SKETCH -->
     <div class="grid">
-
-  <!-- MASTER SKETCH GROUP -->
-  <div class="grid">
-    <img src="assets/mastersketch1" alt="Master Sketch Top Plane">
-    <img src="assets/mastersketch2" alt="Master Sketch Side Plane">
-  </div>
-
-  <!-- OTHER COMPONENTS -->
-  <img src="assets/part" alt="Part Design">
-  <img src="assets/assembly" alt="Assembly">
-
-</div>
+      <img src="assets/mastersketch1.png" alt="Master Sketch Top Plane">
+      <img src="assets/mastersketch2.png" alt="Master Sketch Side Plane">
+    </div>
 
     <p class="caption">
-      Constraint-driven design focused on tight packaging and structural durability under repeated impacts.
+      Master sketch defines overall footprint, weapon diameter, and component placement constraints 
+      across multiple planes before detailed part modeling.
+    </p>
+
+    <!-- PART + ASSEMBLY -->
+    <div class="grid">
+      <img src="assets/part.png" alt="Part Design">
+      <img src="assets/assembly.png" alt="Assembly">
+    </div>
+
+    <p class="caption">
+      Parts were designed for tight packaging and load paths under impact. The final assembly reflects 
+      centralized mass distribution and minimal overhang to reduce knockback.
     </p>
   </section>
 
@@ -88,32 +91,13 @@
     </p>
 
     <p>
-      With a 3.2 inch weapon diameter and a 2300 KV motor at 11.1V, the theoretical 
-      maximum tip speed is approximately <strong>240 mph</strong>. Actual speed is lower 
-      due to load and system losses.
+      With a 3.2 inch diameter and a 2300 KV motor at 11.1V, the theoretical tip speed 
+      is approximately <strong>240 mph</strong>. Actual speed is lower under load.
     </p>
 
     <p>
-      A smaller diameter was chosen to improve spin-up time and control, trading 
-      maximum energy for responsiveness and consistency in engagements.
-    </p>
-  </section>
-
-  <!-- PERFORMANCE -->
-  <section class="section">
-    <h2>Performance</h2>
-    <p>
-      The compact design reduced knockback and allowed the robot to remain grounded 
-      during impacts, enabling consistent control and a decisive win.
-    </p>
-  </section>
-
-  <!-- LESSONS -->
-  <section class="section">
-    <h2>Lessons Learned</h2>
-    <p>
-      Compact packaging improved stability but reduced accessibility for maintenance. 
-      Future iterations would aim to preserve mass distribution while improving serviceability.
+      A smaller diameter was selected to improve spin-up time and control, trading peak 
+      energy for faster engagement and consistency.
     </p>
   </section>
 
